@@ -45,3 +45,9 @@ add store index to module
 ```
 ng generate store AppState --root --module app.module.ts --state-path store --state-interface AppState
 ```
+## Step 4
+add store/user action
+## Command
+```
+ng g action store/user --group --api --flat false --skip-tests --prefix load --creators true  
+```
