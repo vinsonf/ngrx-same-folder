@@ -28,7 +28,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Step 1
+add ngrx schematics
 ### Command
 ```
 ng add @ngrx/schematics@latest --defaultCollection true
+```
+## Step 2
+install dependencies 
+### Command
+```
+npm install @ngrx/{store,effects,entity,store-devtools} --save
 ```
