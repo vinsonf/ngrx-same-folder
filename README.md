@@ -39,3 +39,9 @@ install dependencies
 ```
 npm install @ngrx/{store,effects,entity,store-devtools} --save
 ```
+## Step 3
+add store index to module
+## Command
+```
+ng generate store AppState --root --module app.module.ts --state-path store --state-interface AppState
+```
